@@ -7,17 +7,41 @@ This is a Telegram bot that allows users to resize photos and apply filters.
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Olegsmm2092/telegram-bot-foto-cc.git
    ```
-2. Install the required dependencies:
+2. Create a virtual environment:
+   ```bash
+   virtualenv -p python3.11 venv
+   ```
+
+2. Activate the virtual environment:
+   ```bash
+   source venv/Script/activate
+   ```
+
+
+2. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Set up the Telegram bot:
+3. Create a Telegram Bot:
     
-   * Create a new bot on Telegram and obtain the bot token.
+   * Create a new bot on Telegram and obtain a bot token from the BotFather bot on Telegram.
    * Update the config.py file with your bot token.
+
+## Implement the Bot Functionality
+
+1. Refactor the code and organize it into modules. Here's an example structure:
+    ````hljs
+    project/
+    ├── bot.py
+    ├── functions.py
+    ├── keyboard.py
+    ├── database.py
+    └── README.md
+    ````
+
 
 ## Usage
 
