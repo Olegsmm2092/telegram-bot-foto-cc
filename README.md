@@ -32,7 +32,7 @@ This is a Telegram bot that allows users to resize photos and apply filters.
 
 ## Implement the Bot Functionality
 
-1. Refactor the code and organize it into modules. Here's an example structure:
+1. Refactor the code and organize it into modules:
     ````hljs
     project/
     ├── bot.py
